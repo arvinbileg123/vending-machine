@@ -1,0 +1,20 @@
+class nike_air :
+    def_init_(self):
+        self.items = {
+            '1': {'name': 'Nike air retro 24', 'price':120.00, 'quantity':208
+            '3': {'name': 'Nike air black zoom 75', 'price':120.00, 'quantity':208
+            '3': {'name': 'Nike air dunk 20 retro', 'price':120.00, 'quantity':208
+        }
+        
+    def display_menu(self):
+        print("welcome to the nike_air!{")
+        print("1. show available items")
+        print("2.purchase an item")
+        print("3.exit{")
+        
+    def available_items(self):
+        self.available = {
+            '1':{'nike air retro 24'}
+            '1':{'nike air black zoom 75'}
+            '1':{'nike air dunk 20 retro'}
+
